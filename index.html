@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <title>Drawing App</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas  width=800%" height="550%" id="canvas"></canvas>
+    <div class="toolbox">
+        <button title="Decrease Size" class="decrease"> -</button>
+        <span title="Size" class="size">20</span>
+        <button  title="Increase Size" class="increase">+</button>
+        <div  class="color-changer">
+            <label for="color-picker">🖌️</label>
+            <input title="Brush Color" type="color" class="color-picker color">
+        </div>
+        
+        <div class="color-changer">
+            <label for="canvas-color">🎨</label>
+            <input title="Canvas color" type="color" value="#ffffff" class="color-picker canvas-color">
+        </div>
+        <button title="Clear Canvas" class="clear">X</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
