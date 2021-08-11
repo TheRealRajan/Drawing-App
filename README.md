@@ -6,7 +6,7 @@ You can also adjust the size of the brush by clicking on the " + " and " - " but
 If you would like to start over, you can clear everything on the canvas by pressing the " X " button.<br><br>
 The demo is live at *https://therealrajan.github.io/Drawing-App/*
 <br><br>
-Improvements are always welcome is you have any !
+Improvements are always welcome. If you have any, send me pull request!
 
 ![image](https://user-images.githubusercontent.com/22878736/129043671-3e1c2e2e-8e75-418e-b6e3-0238f38a99fc.png)
 ![image](https://user-images.githubusercontent.com/22878736/129043615-805165c2-75b2-402f-868e-e3a5c4766412.png)
