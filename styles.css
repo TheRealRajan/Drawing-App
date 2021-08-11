@@ -34,6 +34,9 @@ body {
   height: 100vh;
 }
 
+h3 {
+  letter-spacing: 3px;
+}
 #canvas {
   border: 3px solid #acabab;
   border-bottom: none;
@@ -76,9 +79,6 @@ body {
   cursor: unset;
 }
 
-/* .color {
-  cursor: crosshair;
-} */
 .color-changer {
   width: auto;
   font-size: 0.8rem;
@@ -92,9 +92,6 @@ body {
   width: 1.75rem;
   border: none;
   cursor: crosshair;
-  /* -webkit-appearance: none; */
-  /* padding: 2px; */
-  /* border-radius: 500px; */
 }
 .color-picker::-webkit-color-swatch {
   border: none;
